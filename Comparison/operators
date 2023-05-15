@@ -5,7 +5,7 @@
 -5 * 15 != 75
 
 # Comparison of strings
-'pyscript' == 'Pyscript'
+"pyscript" == "PyScript"
 
 # Compare a boolean with an integer
-'True' == 1
+True == 1
