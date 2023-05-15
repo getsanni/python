@@ -1,0 +1,43 @@
+x = 1
+while x < 4 :
+    print(x)
+    x = x + 1
+    
+#Correct! After 3 runs, x will be equal to 4, causing x < 4 to evaluate to False. This means that the while loop is executed 3 times, giving three printouts.
+
+
+# Initialize offset
+offset = 8
+
+# Code the while loop
+while offset != 0 :
+    print("correcting...")
+    offset = offset - 1
+    print(offset)
+    
+    
+    ############################################################
+    The structure of the if-else block is
+
+if check_for_positive_offset :
+    offset = decrease_the_value
+else :
+    offset = increase_the_value
+You could check for an offset greater than 10 with offset > 10, for example.
+You could increase the offset by 10 with offset = offset + 10.
+The printing of "correcting..." should stay at the start of the loop and printing offset should stay at the end of the loop.
+Pay close attention to indentation - the if and else should line up with the print() calls, and the changes to offset should be indented further in.
+
+# Initialize offset
+offset = -6
+
+# Code the while loop
+while offset != 0 :
+    print("correcting...")
+    if offset > 0 :
+        offset = offset - 1
+    else :
+        offset = offset + 1
+    print(offset)
+    ###################################################################
+    
