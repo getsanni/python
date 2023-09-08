@@ -1,0 +1,21 @@
+#It is important to deal with missing data before starting your analysis.
+
+#One approach is to drop missing values if they account for a small proportion, typically five percent, of your data.
+
+#Working with a dataset on plane ticket prices, stored as a pandas DataFrame called planes, you'll need to count the number of missing values across all columns, calculate five percent of all values, use this threshold to remove observations, and check how many missing values remain in the dataset.
+
+# Count the number of missing values in each column
+print(planes.isna().sum())
+
+#It is important to deal with missing data before starting your analysis.
+
+#One approach is to drop missing values if they account for a small proportion, typically five percent, of your data.
+
+#Working with a dataset on plane ticket prices, stored as a pandas DataFrame called planes, you'll need to count the number of missing values across all columns, calculate five percent of all values, use this threshold to remove observations, and check how many missing values remain in the dataset.
+
+# Count the number of missing values in each column
+print(planes.isna().sum())
+
+# Find the five percent threshold
+threshold = len(planes) * 0.05
+
